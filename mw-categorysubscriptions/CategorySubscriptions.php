@@ -5,6 +5,8 @@ if (!defined('MEDIAWIKI')) {
         echo <<<EOT
 To install my extension, put the following line in LocalSettings.php:
 require_once( "$IP/extensions/CategorySubscriptions/CategorySubscriptions.php" );
+
+Then run the install script found in the maintenance folder.  The script has to be copied to main maintenance folder.
 EOT;
         exit( 1 );
 }
